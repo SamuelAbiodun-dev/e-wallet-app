@@ -1,0 +1,16 @@
+.page2_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.page2_image {
+    width: 100%;
+    height: auto;
+  }
+  .account2-p{
+    color: gray;
+  }
+  .right-side-div3{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }

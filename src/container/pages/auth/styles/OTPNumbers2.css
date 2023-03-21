@@ -1,0 +1,37 @@
+.page5_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.page5_image{
+  width: 100%;
+  height: auto;
+}
+ .right_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.otp_numbers{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.otp_box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 50%;
+}
+.dot_box{
+width: 20%;
+height: 45px;
+text-align: center;
+border-radius: 5px;
+border-width: 2px;
+font-size: 50px;
+border-color: rgb(204, 202, 202);
+border-style: solid;
+color: #552293;
+padding-top: 20px;
+} 

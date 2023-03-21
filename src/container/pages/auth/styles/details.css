@@ -1,0 +1,99 @@
+.page9_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .complete-reg-image {
+    width: 100%;
+    height: auto;
+  }
+  .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .right-side-div1 {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+  .oneofthree,
+  .complete-reg-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .complete-p {
+    font-size: 14.4px;
+    font-weight: 300px;
+  }
+  .oneOfthree {
+    font-size: 11px;
+  }
+  
+  hr {
+    width: 65%;
+    margin-top: 35px;
+    margin-right: 37px;
+  }
+  .KYC {
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+  }
+  .kyc {
+    font-style: solid;
+    font-size: large;
+    font-weight: 500;
+  }
+  .Identification {
+    width: 50%;
+  }
+  .identification {
+    font-size: 14.4px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .page9-form-div {
+    width: 50%;
+  }
+  .merged-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .merged-input {
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    border-color: gray;
+    
+  }
+  
+  .merged-div > input:first-child {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
+  .merged-div > input:last-child {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  /* .merged-div > input:nth-child(2n) {
+  } */
+  .prev-div{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .prev {
+   font-weight: 500;
+   margin-top: 10px;
+  }

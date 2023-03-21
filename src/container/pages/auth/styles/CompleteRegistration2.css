@@ -1,0 +1,57 @@
+.page8-div {
+  position: relative;
+}
+.page8-image {
+  width: 100%;
+  z-index: -1;
+}
+/* .two-inputs{
+    
+} */
+a {
+  position: absolute;
+}
+
+/* .inputs1 {
+  position: absolute;
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-width: 1px;
+} */
+
+.input-div{
+    width: 60%;
+}
+.inputs2 {
+  position: absolute;
+  width: 26%;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  border-width: 1px;
+  left: 59%;
+  top: 37%;
+  margin-right: 18px;
+  margin-top: 1px;
+  background-color: white;
+  border-style: none;
+  padding-left: 60px;
+  
+}
+.inputs1{
+    position: absolute;
+  width: 26%;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  border-width: 1px;
+  left: 59%;
+  top: 30%;
+  margin-right: 18px;
+  margin-top: 1px;
+  background-color: white;
+  border-style: none;
+  padding-left: 60px;
+}

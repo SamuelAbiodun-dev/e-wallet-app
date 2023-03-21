@@ -1,0 +1,18 @@
+.page6-image {
+  width: 100%;
+}
+.continue-div {
+  position: relative;
+}
+.continue-anchor {
+  position: absolute;
+  left: 58%;
+  top: 52%;
+  background-color: white;
+  font-style: solid;
+}
+.checkbox {
+  height: 16px;
+  width: 16px;
+  color: #55229e;
+}

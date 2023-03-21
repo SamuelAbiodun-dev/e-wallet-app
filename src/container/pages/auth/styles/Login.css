@@ -1,0 +1,81 @@
+.page1_div {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+}
+.page1_image {
+  width: 100%;
+  height: auto;
+}
+.right_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.left_side{
+    width: 50%;
+}
+.welcome {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.dashboard-desc {
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.page1_input{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.remember-p{
+    display: inline;
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+.forget-img{
+    display: inline;
+    height: 14px;
+}
+.right-side-div2{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+.forget-p{
+    display: inline;
+    font-size: 17px;
+}
+.checkbox{
+    height: 16px;
+    width: 16px;
+    color: #55229E;
+}
+.remember-me-div, .forget-password-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-div3{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin-top: 20px;
+}
+.account-p{
+    color: gray;
+}
+.sign-up{
+    color:#55229E ;
+    font-weight: 500;
+}
