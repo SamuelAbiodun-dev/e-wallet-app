@@ -21,6 +21,7 @@ import Onboarding1 from "./container/pages/auth/components/Onboarding-1";
 import Register from "./container/pages/auth/components/Register";
 import { Divider } from "@chakra-ui/react";
 import SuccessPage from "./container/pages/auth/components/SuccessPage";
+import WebDashboardPage from "./container/pages/auth/components/WebDashboardPage";
 function App() {
   let word = [
     "Welcome to chatboat, a great friend to chat with you",
@@ -81,6 +82,7 @@ function App() {
           />
           <Route path="/Register" element={<Register />} />
           <Route path="/SuccessPage" element={<SuccessPage />} />
+          <Route path="/Dashboard" element={<WebDashboardPage/>} />
         </Routes>
       </Router>
     </div>

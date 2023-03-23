@@ -1,0 +1,67 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.container {
+  background-color: rgb(236, 228, 228);
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../../../assets/image/svg/money.svg");
+  padding: 40px;
+  position: relative;
+  display: flex;
+}
+.inner-container {
+  width: 200%;
+  max-width: 1100px;
+  background: rgb(255, 255, 255);
+  margin: 100px auto 70px;
+  padding: 40px 30px 60px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+.ellipse {
+  width: 400px;
+  height: 300px;
+  top: -10px;
+  left: -20px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.text{
+    position: absolute;
+    font-weight:bold;
+    font-size: 20px;
+    margin: 120px;
+    bottom: 79vh;
+}
+.user{
+   height: 110px;
+   width: 110px;
+   top: 166px;
+   left: 166px;
+   position: absolute;
+   left: 62.44%;
+   right: 31.71%;
+   top: 14.86%;
+   bottom: 76.1%;
+}
+.total-balance{
+height: 86px;
+width: 310px;
+left: 38px;
+top: 116px;
+border-radius: 10px;
+position: absolute;
+left: 40%;
+right:37px;
+top: 28%;
+bottom: 10.3%;
+background: #807979;
+border-radius: 10px;
+border-color: black;
+border-width: 30px;
+display: flex;
+}
